@@ -15,7 +15,6 @@ namespace object {
         this->p3 = c3ga::point<GLfloat>(0.0, rayon, 0.0);
         this->p4 = c3ga::point<GLfloat>(0.0, 0.0, rayon + 0.0);
         this->sphere = p1 ^ p2 ^ p3 ^ p4;
-      //  this->sphere = utility::Utilitor<GLfloat>::translator(sphere, center.x, center.y, center.z);
         glGenBuffers(1, &this->vbo);
         glGenVertexArrays(1, &this->vao);
     }
@@ -46,7 +45,7 @@ namespace object {
         rayon = std::abs(std::sqrt(dual | dual));
 
         center = {dual[c3ga::E1], dual[c3ga::E2], dual[c3ga::E3]};
-        std::cout << "x : " << center.x << " y : " << center.y << " z : " << center.y << std::endl;
+
 
         GLfloat rcpLat = 1.f / latitude, rcpLong = 1.f / longitude;
         GLfloat dPhi = 2 * glm::pi<float>() * rcpLat, dTheta = glm::pi<float>() * rcpLong;
@@ -141,10 +140,6 @@ namespace object {
 
 
     void Sphere::update() {
-       /* if (tick.tick()) {
-            return;
-        }*/
-
         buildVertices();
         fillBuffer();
 
