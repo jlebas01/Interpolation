@@ -191,7 +191,6 @@ namespace object {
         dual = !this->sphere;
         dual /= dual[c3ga::E0];
         rayon = std::abs(std::sqrt(dual | dual));
-        std::cout << rayonMax << " :: " << rayon << std::endl;
         return rayonMax >= rayon;
     }
 

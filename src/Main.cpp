@@ -151,9 +151,13 @@ int main(int argc, char *argv[]) {
         usleep(80000);
 
         if (alpha <= 1.0) {
-            std::cout << alpha << std::endl;
             alpha += 1.0 / nb_step;
+            if (alpha < 1.0){
+                std::cout << "Interpolation progress : " << (alpha * 100) << "%" << std::endl;
+            }
+
         } else {
+            std::cout << "Interpolation progress : 100%" << std::endl;
             sleep(5);
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
             break;
@@ -162,6 +166,5 @@ int main(int argc, char *argv[]) {
         // Update the display with double buffering
         windowManager.swapBuffers();
     }
-
     std::exit(EXIT_SUCCESS);
 }
