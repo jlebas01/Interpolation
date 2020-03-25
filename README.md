@@ -1,4 +1,4 @@
-# Interpolation
+# Interpolation 3D
 ## Description
 Student project of Geometric Algebra, using OpenGL3 and C3ga.
 <br/>
@@ -43,11 +43,11 @@ sphere2.dilator(1.5);
 ```
 # Author
 * Jérémie LE BASTARD
-# Biblliography
-* H. Hadfield & J. Lasenby : Direct Linear Interpolation of Geometric Objects in Conformal Geometric Algebra
+# Bibliography
+* [1] H. Hadfield & J. Lasenby : Direct Linear Interpolation of Geometric Objects in Conformal Geometric Algebra
   * https://link.springer.com/article/10.1007/s00006-019-1003-y
-* Doran, C.: Circle and sphere blending with conformal geometric algebra.  (2003)
+* [2] Doran, C.: Circle and sphere blending with conformal geometric algebra.  (2003)
   * https://arxiv.org/pdf/cs/0310017.pdf
-* Jean-Sébastien Samson : Inteprolation 3D
+* [3] Jean-Sébastien Samson : Inteprolation 3D
   * http://www.enseignement.polytechnique.fr/profs/informatique/Francois.Sillion/Majeure/Projets/samson/index.html
 
