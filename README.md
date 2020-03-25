@@ -43,4 +43,9 @@ sphere2.dilator(1.5);
 ```
 # Author
 * Jérémie LE BASTARD
+# Biblliography
+* H. Hadfield & J. Lasenby : Direct Linear Interpolation of Geometric Objects in Conformal Geometric Algebra
+  * https://link.springer.com/article/10.1007/s00006-019-1003-y
+* Doran, C.: Circle and sphere blending with conformal geometric algebra.  (2003)
+  * https://arxiv.org/pdf/cs/0310017.pdf
 

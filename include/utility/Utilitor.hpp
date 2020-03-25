@@ -54,7 +54,7 @@ namespace utility {
         GLfloat rayon2 = dual2 | dual2;
         c3ga::Mvec<GLfloat> center2 = c3ga::point<GLfloat>(dual2[c3ga::E1], dual2[c3ga::E2], dual2[c3ga::E3]);
 
-        c3ga::Mvec<GLfloat> zero = c3ga::point(0.0, 0.0, 0.0);
+        //c3ga::Mvec<GLfloat> zero = c3ga::point(0.0, 0.0, 0.0);
         c3ga::Mvec<T> interpol = alpha * center2 + (1 - alpha) * center1 - 0.5 * (alpha * rayon2 + (1 - alpha)*rayon1) * c3ga::ei<T>();
 
 
