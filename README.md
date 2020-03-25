@@ -48,4 +48,6 @@ sphere2.dilator(1.5);
   * https://link.springer.com/article/10.1007/s00006-019-1003-y
 * Doran, C.: Circle and sphere blending with conformal geometric algebra.  (2003)
   * https://arxiv.org/pdf/cs/0310017.pdf
+* Jean-Sébastien Samson : Inteprolation 3D
+  * http://www.enseignement.polytechnique.fr/profs/informatique/Francois.Sillion/Majeure/Projets/samson/index.html
 
